@@ -54,9 +54,9 @@ body {
 	font-weight: 700;
 }
 .container-share-footer{
-	display: inline-block;
+	display: block;
 	max-width: 156.02px;
-	margin-left: 390px;
+	margin: 0 0 41px auto;
 	color:#1E212C;
 	font-weight: 700;
 }
@@ -91,4 +91,29 @@ body {
 .list-item {
   background: url("../image/check.png") 0 5px no-repeat;
   padding: 0 0 0 32px;
+}
+
+.button-footer a{
+	display: inline-block;
+	background: red;
+	padding: 15px 30px;
+	border-radius: 12px;
+	color: #fff;
+	font-size: 30px;
+	box-shadow: 2px 2px 8px 2px #1E212C;
+	margin: 0 0 20px 10px;
+}
+.button-footer a:hover{
+	box-shadow: 2px 2px 5px 1px #1E212C;
+}
+.button-footer a:active{
+	box-shadow: none;
+}
+.button-footer a::after{
+	content: "";
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	background: url("../image/share-arrow.svg") 0 0/ 24px 24px no-repeat;
+	margin: 0 0 0 20px;
 }
