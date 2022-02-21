@@ -1,0 +1,128 @@
+/* &display=swap */
+
+
+.wrapper {
+  overflow: hidden;
+  min-height: 100%;
+}
+body{
+	background: url("../image/модель-безшовная-вектора-текстура-горошек-пункт-фона-крошечный-мягкие-203199239.jpg") 0 0 /cover;
+}
+.container{
+	background-color: rgb(87, 170, 218);
+	box-shadow: 0 0 10px 5px #6d6b5e;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.block-title{
+	margin: 0 0 24px 0;
+}
+.title{
+	font-size: 90px;
+	text-align: center;
+	text-decoration: underline red;
+   margin: 0 0 24px 0;
+}
+.subtitle{
+	font-size: 45px;
+	font-weight: 500;
+	text-shadow: 0 5px 4px rgb(91, 102, 97);
+	text-align: center;
+}
+.block-1{
+	max-width: 150px;
+	min-height: 200px;
+	background-color: rgb(63, 177, 82);
+}
+.block-1:hover+.block-2,.block-2:hover{
+	visibility: visible;
+}
+
+.block-2{
+	max-width: 1200px;
+	min-height: 30px;
+	background-color:rgb(63, 177, 82);
+	visibility: hidden;
+}
+.block-2:hover+.block-3,.block-3:hover{
+	visibility: visible;
+}
+.block-3{
+	max-width: 70px;
+	min-height: 400px;
+	background-color: rgb(63, 177, 82);
+	margin: 0 0 0 auto;
+	visibility: hidden;
+}
+.block-3:hover+.block-4,.block-4:hover{
+	visibility: visible;
+}
+.block-4{
+	max-width: 657px;
+	min-height: 30px;
+	background-color: rgb(63, 177, 82);
+	margin: 0 0 0 auto;
+	visibility: hidden;
+}
+.block-4:hover+.block-5,.block-5:hover{
+	visibility: visible;
+}
+.block-5{
+	max-width: 20px;
+	min-height: 120px;
+	background-color: rgb(63, 177, 82);
+	margin: 0 0 0 543px;
+	visibility: hidden;
+}
+.block-5:hover+.block-6,.block-6:hover{
+	visibility: visible;
+}
+.block-6{
+	max-width: 563px;
+	min-height: 150px;
+	background-color: rgb(63, 177, 82);
+	visibility: hidden;
+
+}
+.block-6:hover+.block-7,.block-7:hover{
+	visibility: visible;
+}
+.block-7{
+	max-width: 30px;
+	min-height: 165px;
+	background-color: rgb(63, 177, 82);
+	margin: 0 0 0 533px;
+	visibility: hidden;
+}
+.block-7:hover+.block-8,.block-8:hover{
+	visibility: visible;
+}
+.block-8{
+	max-width: 667px;
+	min-height: 170px;
+	background-color: rgb(63, 177, 82);
+	margin: 0 0 0 auto;
+	visibility: hidden;
+}
+.block-8:hover+.block-9,.block-9:hover{
+	visibility: visible;
+}
+.block-9{
+	max-width: 1200px;
+	min-height: 90px;
+	background-color: rgb(63, 177, 82);
+	visibility: hidden;
+}
+.block-9:hover+.block-10,.block-10:hover{
+	visibility: visible;
+}
+.block-10{
+	max-width: 900px;
+	min-height: 300px;
+	background: rgb(219, 28, 219);
+	color: wheat;
+	text-align: center;
+	font-size: 80px;
+	padding: 150px 0 0 0;
+	visibility: hidden;
+}
